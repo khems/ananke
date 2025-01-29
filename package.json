@@ -1,9 +1,9 @@
 {
-  "name": "@thenewdynamic/gohugo-theme-ananke",
+  "name": "@khems/ananke",
   "description": "Ananke: A theme for Hugo Sites",
   "version": "2.11.2",
   "license": "MIT",
-  "repository": "thenewdynamic/gohugo-theme-ananke",
+  "repository": "khems/ananke",
   "author": "Bud Parr (https://github.com/budparr)",
   "maintainers": [
     {
@@ -21,8 +21,8 @@
       "url": "https://github.com/davidsneighbour"
     }
   ],
-  "bugs": "https://github.com/theNewDynamic/gohugo-theme-ananke/issues",
-  "homepage": "https://github.com/theNewDynamic/gohugo-theme-ananke#readme",
+  "bugs": "https://github.com/khems/ananke/issues",
+  "homepage": "https://github.com/khems/ananke#readme",
   "keywords": [
     "hugo",
     "gohugo",
