@@ -1,9 +1,9 @@
-module github.com/theNewDynamic/gohugo-theme-ananke/exampleSite
+module github.com/khems/ananke/exampleSite
 
 go 1.21
 
-replace github.com/theNewDynamic/gohugo-theme-ananke/v2 => ../
+replace github.com/khems/ananke/v2 => ../
 
 require (
-	github.com/theNewDynamic/gohugo-theme-ananke/v2 v2.11.2 // indirect
+	github.com/khems/ananke/v2 v2.11.2 // indirect
 )
