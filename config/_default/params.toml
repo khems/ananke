@@ -252,3 +252,21 @@ label = "YouTube"
 color = "#cd201f"
 profile = "https://www.youtube.com/@%s"
 icon = "youtube" # font awesome brand icon name
+
+[[ananke.social.networks]]
+slug = "strava"
+label = "Strava"
+color = "#fc4c02"
+profile = "https://www.strava.com/clubs/%s"
+icon = "strava" # font awesome brand icon name
+link = "https://www.strava.com/upload/select"
+[ananke.social.networks.particles]
+url = "permalink"
+title = "title"
+
+[[ananke.social.networks]]
+slug = "flickr"
+label = "Flickr"
+color = "#0063dc"
+profile = "https://www.flickr.com/people/%s/"
+icon = "flickr" # font awesome brand icon name
