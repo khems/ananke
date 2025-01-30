@@ -6,15 +6,39 @@
 
 .lh-copy blockquote {
   display: block;
-  font-size: .875em;
+  font-size: 0.875em;
   margin-left: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-left: 4px solid #ccc;
   padding-left: 1rem;
-
 }
 
-.nested-links a{
+.nested-links a {
   overflow-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+  .logo-and-social {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas: 
+      ". logo"
+      ". socials";
+    justify-items: right;
+  }
+
+  .logo-and-social>a {
+    grid-area: logo;
+    display: grid;
+    justify-items: right;
+  }
+
+  .logo-and-social>a>img {
+    width: 40%;
+  }
+
+  .logo-and-social>div {
+    grid-area: socials;
+  }
 }
